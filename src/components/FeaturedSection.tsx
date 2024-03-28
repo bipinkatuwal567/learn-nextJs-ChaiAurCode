@@ -22,7 +22,7 @@ const FeaturedSection = () => {
     <div className="py-12">
       <div>
         <div className="text-center">
-          <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
+          <h2 className="text-base text-white font-semibold tracking-wide uppercase">
             FEATURED COURSES
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
@@ -40,7 +40,7 @@ const FeaturedSection = () => {
       <div className="text-center mt-10">
         <Link
           href={"/courses"}
-          className="bg-white py-3 px-4 rounded border transition duration-200 hover:bg-gray-100 border-neutral-600 text-neutral-700"
+          className="bg-black text-white py-3 px-4 rounded border transition duration-200 hover:bg-gray-900 border-neutral-600"
         >
           View All Courses
         </Link>
