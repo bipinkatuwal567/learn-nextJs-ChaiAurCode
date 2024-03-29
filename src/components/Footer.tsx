@@ -1,0 +1,88 @@
+const Footer = () => {
+  return (
+    <div className="bg-black py-12 text-gray-400">
+      <div className="max-w-6xl mx-auto gap-4 p-4 sm:p-6 lg:p-8 w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 text-center sm:text-left">
+        <div>
+          <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
+          <p className="mb-4">
+            Music School is a premier institution dedicated to teaching the art
+            and science of music. We nurture talent from the ground up,
+            fostering a vibrant community of musicians.
+          </p>
+        </div>
+        <div>
+          <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
+          <ul>
+            <li>
+              <a
+                href="#"
+                className="hover:text-white transition-colors duration-300"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="hover:text-white transition-colors duration-300"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="hover:text-white transition-colors duration-300"
+              >
+                Courses
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="hover:text-white transition-colors duration-300"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
+          <div className="flex flex-col">
+            <a
+              href="#"
+              className="hover:text-white transition-colors duration-300"
+            >
+              Facebook
+            </a>
+            <a
+              href="#"
+              className="hover:text-white transition-colors duration-300"
+            >
+              Twitter
+            </a>
+            <a
+              href="#"
+              className="hover:text-white transition-colors duration-300"
+            >
+              Instagram
+            </a>
+          </div>
+        </div>
+        <div>
+          <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
+          <p>New Delhi, India</p>
+          <p>Delhi 10001</p>
+          <p>Email: info@musicschool.com</p>
+          <p>Phone: (123) 456-7890</p>
+        </div>
+      </div>
+      <p className="text-center text-xs pt-8">
+        © 2024 Music School. All rights reserved.
+      </p>
+    </div>
+  );
+};
+
+export default Footer;
